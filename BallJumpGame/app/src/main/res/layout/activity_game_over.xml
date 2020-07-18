@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".GameOverActivity">
+
+    <TextView
+        android:id="@+id/gameOver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:text="@string/game_over"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/play_again_begin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gameOver"
+        android:layout_centerHorizontal="true"
+
+        android:padding="10dp"
+        android:text="@string/play_again"
+        android:textAllCaps="false"
+        android:background="@drawable/button_stroke_black_press_white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_stroke_black_press_white"
+        android:textSize="30dp"
+        android:text="Exit" />
+
+    <TextView
+        android:id="@+id/displayScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="400dp"
+        android:textColor="@color/colorRed"
+        />
+
+
+</RelativeLayout>

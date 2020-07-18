@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ball Jump Game</string>
+    <string name="ball_jump_game">Ball Jump Game</string>
+    <string name="todo">TODO</string>
+    <string name="score">Score =</string>
+    <string name="play_again">Play Again!</string>
+    <string name="game_over">Game Over ):</string>
+</resources>
